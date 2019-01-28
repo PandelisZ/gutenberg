@@ -24,7 +24,7 @@ The simplest setup is to use Jest's `setupTestFrameworkScriptFile` config option
 
 ```js
 "jest": {
-  "setupTestFrameworkScriptFile": "./node_modules/@wordpress/jest-console/build/index.js"
+  "setupFilesAfterEnv": ["./node_modules/@wordpress/jest-console/build/index.js"]
 },
 ```
 
